@@ -92,8 +92,10 @@ def shuffle():
     random.shuffle(deck)
 
 mainscreen  = tkinter.Tk()
+
 mainscreen.title("Blackjack")
 mainscreen.geometry("640x480")
+mainscreen.configure(background="green")
 
 result_text = tkinter.StringVar()
 result = tkinter.Label(mainscreen, textvariable=result_text)
